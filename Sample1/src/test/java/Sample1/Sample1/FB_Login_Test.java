@@ -61,7 +61,6 @@ public class FB_Login_Test
 		expand.click();
 		WebDriverWait wait = new WebDriverWait(driver, 5);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Manage Groups')]")));
-		
 		WebElement groups=driver.findElement(By.xpath("//span[contains(text(),'Manage Groups')]"));
 		groups.click();
 		expand.click();
