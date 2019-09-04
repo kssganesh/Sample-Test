@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62357" started-at="2019-09-04T10:13:37 IST" finished-at="2019-09-04T10:14:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62357" started-at="2019-09-04T10:13:37 IST" finished-at="2019-09-04T10:14:39 IST">
+      <class name="Sample1.Sample1.FB_Login_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Sample1.Sample1.FB_Login_Test@6e0e048a]" name="setup" is-config="true" duration-ms="3358" started-at="2019-09-04T10:13:37 IST" finished-at="2019-09-04T10:13:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login_URL()[pri:0, instance:Sample1.Sample1.FB_Login_Test@6e0e048a]" name="Login_URL" duration-ms="50717" started-at="2019-09-04T10:13:40 IST" finished-at="2019-09-04T10:14:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_URL -->
+        <test-method status="PASS" signature="Manage_group()[pri:0, instance:Sample1.Sample1.FB_Login_Test@6e0e048a]" name="Manage_group" duration-ms="2472" started-at="2019-09-04T10:14:31 IST" finished-at="2019-09-04T10:14:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_group -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Sample1.Sample1.FB_Login_Test@6e0e048a]" name="logout" duration-ms="4874" started-at="2019-09-04T10:14:33 IST" finished-at="2019-09-04T10:14:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Sample1.Sample1.FB_Login_Test@6e0e048a]" name="teardown" is-config="true" duration-ms="880" started-at="2019-09-04T10:14:38 IST" finished-at="2019-09-04T10:14:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Sample1.Sample1.FB_Login_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
