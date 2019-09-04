@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="1" >
+  <test name="Sample1.Sample1.Fb_Login_Test" >
+    <classes>
+       <class name="FB_Login" />
+    </classes>
+  </test>
+  <test name="Regression1">
+    <classes>
+      <class name="Sample.Sample.FB_Logout"/>
+    </classes>
+  </test>
+</suite>
